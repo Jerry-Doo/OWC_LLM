@@ -1,0 +1,16 @@
+# 编译缓存
+__pycache__/
+*.py[cod]
+
+# 模型权重 / 中间结果
+output/
+*.pt
+*.ckpt
+*.pth
+*.safetensors
+*.bin
+
+# 临时文件 / 日志
+*.log
+*.tmp
+.___temp/
