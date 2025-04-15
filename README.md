@@ -21,8 +21,8 @@ pip install modelscope==1.18.0
 Get the key on [swanlab](https://swanlab.cn/) first
 ```
 # please input your key to login
-swanlab login
-modelscope login --token+id
+swanlab login #https://swanlab.cn/
+modelscope login --token+id #https://www.modelscope.cn/my/overview
 
 
 # Lora ft and infer
