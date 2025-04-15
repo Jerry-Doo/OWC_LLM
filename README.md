@@ -12,7 +12,8 @@ pip install sentencepiece==0.2.0
 pip install accelerate==0.34.2
 pip install datasets==2.20.0
 pip install peft==0.11.1
-pip install swanlab==0.3.25
+pip install swanlab
+pip install modelscope==1.18.0
 ```
 
 # Preparation
@@ -20,7 +21,9 @@ pip install swanlab==0.3.25
 Get the key on [swanlab](https://swanlab.cn/) first
 ```
 # please input your key to login
-swanlab login 
+swanlab login
+modelscope login --token+id
+
 
 # Lora ft and infer
 ```
