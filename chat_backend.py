@@ -91,3 +91,8 @@ def chat(query: Query):
 
     except Exception as e:
         return {"response": f"❌ 模型推理失败：{str(e)}"}
+
+if __name__ == "__main__":
+
+   import uvicorn
+   uvicorn.run(app, host="0.0.0.0", port=8000)

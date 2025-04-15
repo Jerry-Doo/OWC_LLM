@@ -31,7 +31,7 @@ python infer.py # When using multi-GPU setups in the lab environment, + CUDA_VIS
 # load website
 ```
 python chat_backend.py
-python web_chat.py  # change another cmd to take this step
+streamlit run web_chat.py  # change another cmd to take this step
 ```
 
 # demo output
