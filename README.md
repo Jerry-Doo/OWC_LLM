@@ -13,6 +13,7 @@ pip install accelerate==0.34.2
 pip install datasets==2.20.0
 pip install peft==0.11.1
 pip install swanlab
+pip install modelscope
 ```
 
 # Preparation
@@ -21,7 +22,7 @@ Get the key on [swanlab](https://swanlab.cn/) first
 ```
 # please input your key to login
 swanlab login #https://swanlab.cn/
-
+modelscope login #https://www.modelscope.cn/
 
 # Lora ft and infer
 ```

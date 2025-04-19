@@ -3,7 +3,7 @@
 @File    :   qwen25_1-5B_lora_owc.py
 @Time    :   2025/04/11
 @Author  :   Yansong Du 
-@Contact :   tangruiqing123@gmail.com
+@Contact :   dys24@mails.tsinghua.edu.cn
 '''
 
 import json
