@@ -77,11 +77,11 @@ model = AutoModelForCausalLM.from_pretrained("./qwen/Qwen2___5-1___5B-Instruct",
 model.enable_input_require_grads()  # 开启梯度检查点时，要执行该方法
 
 # 处理数据集
-train_jsonl_path = "./datasets/OWC_train.jsonl"
+train_jsonl_path = "./datasets/OWC_train_en.jsonl"
 train_df = pd.read_json(train_jsonl_path, lines=True)
 train_ds = Dataset.from_pandas(train_df)
 train_dataset = train_ds.map(process_func, remove_columns=train_ds.column_names)
-test_jsonl_path = "./datasets/OWC_test.jsonl"
+test_jsonl_path = "./datasets/OWC_test_en.jsonl"
 test_df = pd.read_json(test_jsonl_path, lines=True)
 
 config = LoraConfig(
