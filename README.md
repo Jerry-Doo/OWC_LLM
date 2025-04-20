@@ -1,7 +1,6 @@
 @Time    :   2025/04/11
 @Author  :   Yansong Du 
 @Contact :   dys24@mails.tsinghua.edu.cn
-@123
 
 # Env Setup
 ```
